@@ -1,0 +1,81 @@
+
+header {
+	background-color: #180D01;
+	border-radius: 0;
+	display: block;
+	padding: 0;
+	position: fixed;
+	margin: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+header p {
+	color: #FFEDD0;
+	font-size: 25px;
+	float: left;
+	padding-left: 1vw;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 20vw;
+}
+
+header a {
+	color: #FFEDD0;
+	padding-top: 25px;
+	padding-right: 2vw;
+	padding-bottom: 0px;
+	float: right;
+}
+
+body {
+	overflow: scroll;
+	background-color: #000000;
+	background-image: url(espresso-ground-coffee-beans.jpg);
+	background-size: cover;
+	background-position: bottom right;
+}
+
+.info {
+	background-color: #000000;
+	border-radius: 10%;
+	display: block;
+	float: left;
+	opacity: 0.75;
+	padding-top: 10%;
+	height: 100%;
+	margin-top: 100px;
+	margin-left: 30px;
+	width: 50%;
+	z-index: 1;
+}
+
+h1 {
+	color: #FFF;
+	text-align: center;
+	margin-top: 0;
+	padding-top: 0;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 20px; 	
+}
+
+input {
+	width: 80%;
+	color: #273746;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+form {
+	padding-left: 10%;
+	color: #ffffff;
+	margin-bottom: 10%;
+}
+
+form p {
+	font-size: 5px;
+}
