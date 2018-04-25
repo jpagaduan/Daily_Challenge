@@ -60,9 +60,10 @@ form label {
 	border-bottom: solid #FFA500 2px;
 }
 
-/* Navigation with divs */
+/*Below are all notes, old code deleted in the OFFICIAL_STYLE.css due
+to experimentation. Ignore these.
 
-/*.navigation {
+.navigation {
 	display: inline-block;
 	text-align: center;
 	width: 100%;
@@ -70,7 +71,7 @@ form label {
 	border-bottom: solid #FFA500 2px;
 }
 
-/*.navigation a {
+.navigation a {
   color: #FFFFFF;
   background: none;
   display: inline-block;
@@ -80,7 +81,7 @@ form label {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 25px;
-}*/
+}
 
 
 
@@ -100,7 +101,7 @@ form label {
 	font-size: 20px;
 }
 
-/*------------------------------*/
+End of Notes -----------*/
 
 #section {
 	border-bottom: solid #FFA500 2px;
