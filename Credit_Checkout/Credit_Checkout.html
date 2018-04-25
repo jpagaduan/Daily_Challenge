@@ -1,0 +1,101 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title>Credit Card Checkout</title>
+	<link rel="stylesheet" type="text/css" href="style_credit.css">
+</head>
+<body>
+
+	<header class="navigation">
+		<div class="section_header" style="background: #FF69B4;">
+			<a href="">1. Shipping</a>
+		</div>
+		
+		<div class="section_header" style="background: #FF1493;">
+			<a href="">2. Payment</a>
+		</div>
+		
+		<div class="section_header" style="background: #FF69B4;">
+			<a href="">3. Checkout</a>
+		</div>
+	</header>
+
+
+	<div class="Pay">
+
+		<div id="section" class="Payment_1">
+			<p>Card</p>
+		</div>
+
+		<div id="section" class="Payment_2">
+			<p>Paypal</p>
+		</div>
+		
+		<div class="payment_info">
+			<form>
+				<p>Card Number</p>
+				<input type="number" name="Card_Number" id="card_num" value="**** **** **** ****" style="width: 100%">
+				<p>CVC</p>
+				<input type="number" name="CVC" id="card_num_2" value="***" style=" width: 20%">
+				<p>Cardholder name</p>
+				<input type="text" name="name" value="" id="card_name" style="width: 100%">
+				<p>Expiration Date</p>
+				<select name="expiration_month" id="card_exp_month" value="Month" style="width: 45%;">
+					<option value="None">---Select Month---</option>
+					<option value="Jan">January</option>
+					<option value="Feb">February</option>
+					<option value="Mar">March</option>
+					<option value="Apr">April</option>
+					<option value="May">May</option>
+					<option value="Jun">June</option>
+					<option value="Jul">July</option>
+					<option value="Aug">August</option>
+					<option value="Sep">September</option>
+					<option value="Oct">October</option>
+					<option value="Nov">November</option>
+					<option value="Dec">December</option>
+				</select>
+				<select type="text" name="expiration_year" id="card_exp_yr" value="Year" style="width: 45%; float: right;">
+					<option value="None">---Select Year---</option>
+					<option value="18">2018</option>
+					<option value="19">2019</option>
+					<option value="20">2020</option>
+					<option value="21">2021</option>
+					<option value="22">2022</option>
+					<option value="23">2023</option>
+					<option value="24">2024</option>
+				</select>
+				<button type="submit" style="margin-top: 30px; height: 9%; width: 50%;">Submit</button>
+			</form>
+		</div>
+	</div>
+
+	<div class="total">
+		<div class="pay_sum">
+			<h1>Payment Summary</h1>
+		</div>
+
+		<div class="money">
+			<p><strong>Total</strong></p>
+			<h2>$250.000</h2>
+		</div>
+
+		<h3>Items</h3>
+
+		<div class="item_list">
+				<p>5x Chocoalte Fig Bar</p>
+				<p><strong>$5</strong></p>
+				<p>1x Chocolate Sea Salt Bag (6 Count)</p>
+				<p><strong>$20</strong></p>
+				<p>1x Chocolate Raspberry Drops Bag (6 Count)</p>
+				<p><strong>$25</strong></p>
+				<p>1x Chocolate Winter Special Assorted Box (36 Count</p>
+				<p><strong>$50</strong></p>
+		</div>
+
+	</div>
+
+
+</body>
+
+</html>
