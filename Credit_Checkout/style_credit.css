@@ -29,11 +29,6 @@ h3 {
 	text-decoration: underline;
 }
 
-a {
-	color: #FFFFFF;
-	text-decoration: none;
-}
-
 p {
 	text-transform: uppercase;
 }
@@ -60,10 +55,18 @@ form label {
 }
 
 .navigation {
-	/*display: inline-block;*/
 	text-align: center;
 	width: 100%;
-	/*background: #FF69B4;*/
+	border-bottom: solid #FFA500 2px;
+}
+
+/* Navigation with divs */
+
+/*.navigation {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	background: #FF69B4;
 	border-bottom: solid #FFA500 2px;
 }
 
@@ -119,6 +122,14 @@ form label {
 	padding-bottom: 20px;
 	padding-top: 20px;
 	font-size: 25px;
+}
+
+.section_header p {
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: 0;
+	font-family: 'Patua One', cursive;
+
 }
 
 .Payment_1 {
